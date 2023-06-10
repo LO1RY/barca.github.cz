@@ -1,0 +1,97 @@
+
+header 
+{
+    background-color: #262fa5;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 
+  {
+    margin: 0;
+  }
+  
+/* Styly pro různé velikosti obrazovky */
+@media only screen and (max-width: 575px) {
+  /* X-small */
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  /* Small */
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Medium */
+  body {
+    font-size: 18px;
+  }
+}
+  nav 
+  {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  nav ul 
+  {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li 
+  {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a 
+  {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  
+  section 
+  {
+    text-align: center;
+    text-align: Top;
+    margin-right: 5px;
+    width: 6%;
+    height: 25px;
+    background: rgba(67, 137, 194, 0.527);
+    border-radius: 30px;
+    font-size: 1em;
+    color: black;
+    
+    
+  }
+  
+
+  footer 
+  {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*obrazek v pozadí*/
+  body.BARCELONA
+  {
+    background-image: url("camnou\ stadion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+
+
+    
+    
+  

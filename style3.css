@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header 
+  {
+    background-color: #262fa5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  nav ul li 
+  {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    }
+    nav ul li a 
+{
+color: #fff;
+text-decoration: none;
+}
+  
+  h1 {
+    margin: 0;
+  }
+  
+  table 
+  {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #262fa5;
+    color: #fff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  footer {
+    background-color: #262fa5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .player-info
+{
+    display: flex;
+flex-direction: row;
+}
+.player-image img
+{
+    width: 150px;
+height: auto;
+margin-right: 20px;
+text-align: center;
+}
+.player-details
+{
+    margin-top: 40px;
+}
+
+/* Styly pro různé velikosti obrazovky */
+@media only screen and (max-width: 575px) {
+  /* X-small */
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  /* Small */
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Medium */
+  body {
+    font-size: 18px;
+  }
+}

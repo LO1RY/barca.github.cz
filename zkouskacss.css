@@ -1,0 +1,16 @@
+.stadion-image img 
+{
+  width: 400px;
+  height: auto;
+  margin-right: 20px;
+}
+  .stadion-info 
+{
+    display: flex;
+    flex-direction: row;
+}
+.stadion-details {
+  flex-grow: 1;
+  }
+  <p>Tento text je na prvním řádku</p>
+<p style="margin-bottom: 10px;">Tento text je na druhém řádku.</p>
